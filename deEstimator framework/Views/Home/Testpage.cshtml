@@ -1,12 +1,35 @@
 ﻿@{
-    ViewBag.Title = "Test";
+    ViewBag.Title = "TestPage";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Test pasta: <br/> <img src="https://www.inspiredtaste.net/wp-content/uploads/2019/03/Spaghetti-with-Meat-Sauce-Recipe-1-1200.jpg" alt="Spaghetti"/></p>
+<div class="jumbotron">
+    <h1>test page</h1>
+</div>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<div class="row">
+    <div class="col-md-4">
+        <h2>yes</h2>
+        <p>
+            Spaghetti is powerful.
+        </p>
+        <p>
+            <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <picture>
+            @*<source media="(min-width: 650px)" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT96NcGOHbcth6EPKnxoCJxs2vZoRocrqGeuIjT4ktUJWrUH9LeMg&amp;s">
+                <source media="(min-width: 465px)" srcset="https://i.pinimg.com/originals/a2/63/6f/a2636f0833e71d0d4c688d38aeb5af46.jpg">*@
+            <img src="https://www.inspiredtaste.net/wp-content/uploads/2019/03/Spaghetti-with-Meat-Sauce-Recipe-1-1200.jpg" alt="yes" width="200">
+        </picture>
+    </div>
+
+    <div class="col-md-4">
+        <h2>no</h2>
+        <p>You can't have mine</p>
+        <p>
+            <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a>
+        </p>
+    </div>
+</div>
+
